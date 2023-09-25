@@ -4,7 +4,7 @@ import "strings"
 
 // Given two strings s and goal, return true if and only if s can become goal after some number of shifts on s.
 // A shift on s consists of moving the leftmost character of s to the rightmost position.
-func rotateString(s string, goal string) bool {
+func RotateString(s string, goal string) bool {
 	if len(s) != len(goal) {
 		return false
 	}
@@ -27,7 +27,7 @@ func rotateString(s string, goal string) bool {
 	return false
 }
 
-func rotateString2(s string, goal string) bool {
+func RotateString2(s string, goal string) bool {
 	if len(s) != len(goal) {
 		return false
 	}

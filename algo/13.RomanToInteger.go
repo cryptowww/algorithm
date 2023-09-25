@@ -25,7 +25,7 @@ Given a roman numeral, convert it to an integer.
 
 */
 
-func romanToInt(s string) int {
+func RomanToInt(s string) int {
 	// v : return Value
 	// cv : current Value
 	// lv : last value
